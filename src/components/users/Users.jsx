@@ -18,7 +18,7 @@ const Users =  () => {
    
   return (
     <div className=' bg-slate-800 '>
-     <h1 className='mt-4 p-2 text-white text-5xl font-bold'>Rails and Real II : A Real Use Case</h1>
+     <h1 className='mt-4 p-2 text-white text-5xl font-bold'>Rails and React II : A Real Use Case</h1>
      <div className='pr-5 flex flex-row-reverse mr-10'>
      <input placeholder='Search people' />
     

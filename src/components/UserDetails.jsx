@@ -14,12 +14,12 @@ const UserDetails = () => {
     const fetchUser = async () => {
       setLoading(true);
       const selectedUser = users.find((user) => user.id == id);
-      setUser(selectedUser); // Update state with the fetched user
+      setUser(selectedUser); 
       setLoading(false);
     };
 
     fetchUser();
-  }, [users, id]); // Add dependencies for re-fetching when users or id change
+  }, [users, id]); 
 
   return (
     <div className=''>
@@ -41,7 +41,7 @@ const UserDetails = () => {
             <Avatar
               sx={{ width: 196, height: 196, boxShadow: ' 2px 2px 8px rgba(0,0,0, 0.25)' }}
               alt='user_image'
-              src={user?.image} // Use optional chaining for safe access
+              src={user?.image} 
             />
             </div>
             <div className=' h-14 text-sm md:text-xl'/>
