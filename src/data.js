@@ -1,0 +1,1 @@
+export const data = 'https://dummyjson.com/users'
