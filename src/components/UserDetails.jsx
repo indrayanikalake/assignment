@@ -48,6 +48,7 @@ const UserDetails = () => {
             <h1 className=' text-4xl flex justify-center space-x-10 font-bold'>{user?.firstName} {user?.lastName}</h1>
             <div className='flex md:justify-between items-center md:m-10 md:p-8'>
                 <div>
+                  <h4 className='  font-serif'>Age:  </h4>
                   <h4 className='  font-serif'>Height:  </h4>
                   <h4 className='  font-serif'>weight:  </h4>
                   <h4 className='  font-serif'>Blood Group:  </h4>
@@ -57,7 +58,8 @@ const UserDetails = () => {
                   
                 </div>
                 <div>
-                  <h4 className='  font-serif'>{user?.age} cm</h4>
+                  <h4 className='  font-serif'>{user?.age}</h4>
+                  <h4 className='  font-serif'>{user?.height} cm</h4>
                   <h4 className=' font-serif'>{user?.weight} Kg</h4>
                   <h4 className='  font-serif'>{user?.bloodGroup}</h4>
                   <h4 className=' font-serif'>{user?.email}</h4>
